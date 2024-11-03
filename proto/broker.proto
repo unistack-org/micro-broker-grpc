@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "go.unistack.org/micro-broker-grpc/v3/proto";
+
+service Broker {
+  rpc Publish(Message) returns (Response) {};
+  rpc Subscribe(SubscribeRequest) returns(stream Message) {};
+}
+
+message SubscribeRequest {
+  string topic = 2;
+}
+
+message Message {
+  map<string, string> headers = 1;
+  bytes body = 2;
+}
+
+message Response {
+  string error = 1;
+}
