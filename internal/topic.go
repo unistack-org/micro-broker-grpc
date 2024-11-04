@@ -80,35 +80,10 @@ func NewTopic(ctx context.Context, name string, log logger.Logger) *Topic {
 		subDeleteChan: make(chan *Subscriber, 3),
 		subAddChan:    make(chan *Subscriber),
 		msgPubChan:    make(chan *broker.Message),
+		limitMessage:  50,
 		log:           log,
 		ctx:           ctx,
 	}
 	go newTopic.actionListener()
 	return newTopic
-}
-
-type TopicStorage struct {
-	topics map[string]*Topic
-	rw     sync.RWMutex
-}
-
-func (ts *TopicStorage) GetTopic(name string) (*Topic, bool) {
-	ts.rw.RLock()
-	defer ts.rw.RUnlock()
-	topic, ok := ts.topics[name]
-	return topic, ok
-}
-
-func (ts *TopicStorage) CreateTopic(ctx context.Context, name string, log logger.Logger) *Topic {
-	ts.rw.Lock()
-	defer ts.rw.Unlock()
-	newTopic := NewTopic(ctx, name, log)
-	ts.topics[name] = newTopic
-	return newTopic
-}
-
-func NewTopicStorage() *TopicStorage {
-	return &TopicStorage{
-		topics: map[string]*Topic{},
-	}
 }

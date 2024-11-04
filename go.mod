@@ -5,6 +5,7 @@ go 1.22.0
 require (
 	github.com/google/uuid v1.6.0
 	go.unistack.org/micro-client-grpc/v3 v3.11.10
+	go.unistack.org/micro-codec-json/v3 v3.10.1
 	go.unistack.org/micro-server-grpc/v3 v3.10.22
 	go.unistack.org/micro/v3 v3.10.97
 	google.golang.org/protobuf v1.35.1
@@ -24,7 +25,6 @@ require (
 	github.com/silas/dag v0.0.0-20220518035006-a7e85ada93c5 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
-	go.unistack.org/micro-codec-json/v3 v3.10.1 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
 	golang.org/x/net v0.30.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
