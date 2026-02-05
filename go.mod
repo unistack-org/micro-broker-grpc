@@ -23,7 +23,7 @@ require (
 	github.com/opencontainers/runtime-spec v1.0.2 // indirect
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect
 	github.com/silas/dag v0.0.0-20220518035006-a7e85ada93c5 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
+	github.com/sirupsen/logrus v1.8.3 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
 	golang.org/x/net v0.30.0 // indirect
