@@ -1,6 +1,6 @@
 module go.unistack.org/micro-broker-grpc/v3
 
-go 1.23.0
+go 1.24.0
 
 require (
 	github.com/google/uuid v1.6.0
@@ -8,7 +8,7 @@ require (
 	go.unistack.org/micro-codec-json/v3 v3.10.1
 	go.unistack.org/micro-server-grpc/v3 v3.10.22
 	go.unistack.org/micro/v3 v3.10.97
-	google.golang.org/protobuf v1.35.1
+	google.golang.org/protobuf v1.36.10
 )
 
 require (
@@ -26,9 +26,9 @@ require (
 	github.com/sirupsen/logrus v1.8.3 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
-	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20241021214115-324edc3d5d38 // indirect
-	google.golang.org/grpc v1.67.1 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/grpc v1.79.3 // indirect
 )
