@@ -6,7 +6,7 @@ require (
 	github.com/google/uuid v1.6.0
 	go.unistack.org/micro-client-grpc/v3 v3.11.10
 	go.unistack.org/micro-codec-json/v3 v3.10.3
-	go.unistack.org/micro-server-grpc/v3 v3.10.22
+	go.unistack.org/micro-server-grpc/v3 v3.10.29
 	go.unistack.org/micro/v3 v3.11.51
 	google.golang.org/protobuf v1.36.11
 )
@@ -21,7 +21,6 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
-	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/matoous/go-nanoid v1.5.1 // indirect
 	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/opencontainers/runtime-spec v1.2.0 // indirect
