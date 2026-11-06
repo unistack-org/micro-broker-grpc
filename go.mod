@@ -8,7 +8,7 @@ require (
 	go.unistack.org/micro-codec-json/v3 v3.10.3
 	go.unistack.org/micro-server-grpc/v3 v3.10.22
 	go.unistack.org/micro/v3 v3.11.51
-	google.golang.org/protobuf v1.36.11
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
