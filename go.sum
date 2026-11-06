@@ -89,8 +89,8 @@ go.unistack.org/micro-codec-json/v3 v3.10.3 h1:FwSBfJswov30Dyqxp1XfQW1EG4h77uTEe
 go.unistack.org/micro-codec-json/v3 v3.10.3/go.mod h1:26OK5MizMNKhspGC6PRVwpDIp5w1GmRb0nE5eRWWDxA=
 go.unistack.org/micro-proto/v3 v3.4.1 h1:UTjLSRz2YZuaHk9iSlVqqsA50JQNAEK2ZFboGqtEa9Q=
 go.unistack.org/micro-proto/v3 v3.4.1/go.mod h1:okx/cnOhzuCX0ggl/vToatbCupi0O44diiiLLsZ93Zo=
-go.unistack.org/micro-server-grpc/v3 v3.10.22 h1:iUuMAGNffsYEqrn9chM8V8wF7wLdOlC/HY3C41KXgJs=
-go.unistack.org/micro-server-grpc/v3 v3.10.22/go.mod h1:H3ngncoIL4ZswbcUfNY8i7KrlZZ5PAL6vpJ70YmAyKo=
+go.unistack.org/micro-server-grpc/v3 v3.10.29 h1:JQM44+9eUjzGg3mVrrBq13lwLeIJlTSwqSDcLwyJmW0=
+go.unistack.org/micro-server-grpc/v3 v3.10.29/go.mod h1:53ypIXDSiT/JVR4yK23hi2i3Zw6+S24sFEZvLOiBDbY=
 go.unistack.org/micro/v3 v3.11.51 h1:7MzNbbgJOZxs23BndZBRMauhj3VfVpaLq07c40az+Ks=
 go.unistack.org/micro/v3 v3.11.51/go.mod h1:RWHHNC7+ZyfDzB1pnHQEFT8ktZPibeR5fJbG37la50Y=
 golang.org/x/net v0.58.0 h1:ynWG7rqYi4ccpTEuPZ2QGWHktVEM9DMCj9yzDE0Q7To=
