@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/google/uuid v1.6.0
 	go.unistack.org/micro-client-grpc/v3 v3.11.10
-	go.unistack.org/micro-codec-json/v3 v3.10.1
+	go.unistack.org/micro-codec-json/v3 v3.10.3
 	go.unistack.org/micro-server-grpc/v3 v3.10.22
 	go.unistack.org/micro/v3 v3.10.97
 	google.golang.org/protobuf v1.36.11
